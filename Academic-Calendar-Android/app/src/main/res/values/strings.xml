@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Academic Calendar</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="about_page_description" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula ligula tortor, in pellentesque dui congue ac. Vestibulum lacinia urna magna, quis cursus ante iaculis nec. Nunc ut ligula sit amet odio ultrices euismod vel vel purus. Sed lacus mauris, aliquam et placerat id</string>
+
+    <string name="about_contact_us">Contact us</string>
+    <string name="about_instagram">Follow us on Instagram</string>
+    <string name="about_facebook">Like us on Facebook</string>
+    <string name="about_play_store">Rate us on the Play Store</string>
+    <string name="about_youtube">Watch us on Youtube</string>
+    <string name="about_twitter">Follow us on Twitter</string>
+    <string name="about_github">Fork us on GitHub</string>
+    <string name="about_website">Visit our website</string>
+
+    <string name="day1_1">Jan 1 - New Year</string>
+    <string name="day1_2">Jan 1 - New Year</string>
+    <string name="day1_3">Jan 1 - New Year</string>
+    <string name="day1_4">Jan 1 - New Year</string>
+    <string name="day1_5">Jan 1 - New Year</string>
+    <string name="day1_6">Jan 1 - New Year</string>
+    <string name="day1_7">Jan 1 - New Year</string>
+    <string name="day1_8">Jan 1 - New Year</string>
+    <string name="day1_9">Jan 1 - New Year</string>
+    <string name="day1_10">Jan 1 - New Year</string>
+    <string name="day1_11">Jan 1 - New Year</string>
+    <string name="day1_12">Jan 1 - New Year</string>
+    <string name="day1_13">Jan 1 - New Year</string>
+    <string name="day1_14">Jan 1 - New Year</string>
+    <string name="day1_15">Jan 1 - New Year</string>
+    <string name="day1_16">Jan 1 - New Year</string>
+    <string name="day1_17">Jan 1 - New Year</string>
+    <string name="day1_18">Jan 1 - New Year</string>
+    <string name="day1_19">Jan 1 - New Year</string>
+    <string name="day1_20">Jan 1 - New Year</string>
+    <string name="day1_21">Jan 1 - New Year</string>
+    <string name="day1_22">Jan 1 - New Year</string>
+    <string name="day1_23">Jan 1 - New Year</string>
+    <string name="day1_24">Jan 1 - New Year</string>
+    <string name="day1_25">Jan 1 - New Year</string>
+    <string name="day1_26">Jan 1 - New Year</string>
+    <string name="day1_27">Jan 1 - New Year</string>
+    <string name="day1_28">Jan 1 - New Year</string>
+    <string name="day1_29">Jan 1 - New Year</string>
+    <string name="day1_30">Jan 1 - New Year</string>
+    <string name="day1_31">Jan 1 - New Year</string>
+
+    <string name="border">Border</string>
+    <string name="shape">Shape</string>
+    <string name="circle">Circle</string>
+    <string name="square">Square</string>
+    <string name="color">Color</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="defaultColor">Default</string>
+
+    <!-- Main Strings -->
+    <string name="drawer_header">Drawer Header</string>
+    <string name="launch_demo">Launch Demo</string>
+
+    <!-- 1st Tab Group -->
+    <string name="default_intro">This is the most basic form of the AppIntro library. Minimal code is required to achieve this, and there are two layout options available. Tap the button below to launch the demo.</string>
+    <string name="default_intro2">This is the second most basic form of the AppIntro library. Minimal code is required to achieve ths, and this is the second layout option that the library offers. Tap the button below to launch the demo.</string>
+    <string name="custom_layout_intro">This demonstrates the ability to pass a custom layout to the library for added customization. Tap the button below to launch the demo.</string>
+    <string name="custom_background_intro">This demonstrates the ability to set custom backgrounds for different slides. Useful if you want images vs. colors in your backgrounds. Tap the button below to launch the demo.</string>
+
+    <!-- 2nd Tab Group -->
+    <string name="perms_intro1">This demonstrates the ability to request permission on any slide specified. Tap the button below to launch the demo.</string>
+    <string name="perms_intro2">This demonstrates the ability to request permission on any slide specified, only it\'s using the second slide layout. Tap the button below to launch the demo.</string>
+
+    <!-- 3rd Tab Group -->
+
+</resources>

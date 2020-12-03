@@ -1,0 +1,100 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nikeshhbaskaran.psgitechmini">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/psg_tech_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.faculty.FacultyActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.faculty.GroupMail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.faculty.HomeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.faculty.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.student.StudentActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.student.GroupMail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.student.HomeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.android.student.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.Attendance"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.attendance2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.details"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.details2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.fees"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.leave1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.leave2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.leaveform"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.otherdetails"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.otherdetails2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.report1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.report2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nikeshhbaskaran.psgitechmini.salary"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

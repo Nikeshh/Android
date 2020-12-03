@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Timeline" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_navigation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Navigation" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Report" />
+    </group>
+
+    <item android:title="EDUCATION">
+        <menu>
+            <item
+                android:id="@+id/nav_cgpacalculator"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CGPA CALCULATOR" />
+            <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="NEWS" />
+            <item
+                android:id="@+id/nav_studentprofile"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="STUDENT PROFILE" />
+            <item
+                android:id="@+id/nav_notes"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="NOTES" />
+            <item
+                android:id="@+id/nav_materials"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="MATERIALS" />
+            <item
+                android:id="@+id/nav_scientificcalculator"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="SCIENTIFIC CALCULATOR" />
+        </menu>
+    </item>
+    <item android:title="CLUBS">
+        <menu>
+            <item
+                android:id="@+id/nav_tarangini"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="TARANGINI" />
+            <item
+                android:id="@+id/nav_ecoclub"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="ECO CLUB" />
+            <item
+                android:id="@+id/nav_nss"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="NSS" />
+            <item
+                android:id="@+id/nav_ncc"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="NCC" />
+            <item
+                android:id="@+id/nav_club5"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 5" />
+            <item
+                android:id="@+id/nav_club6"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 6" />
+            <item
+                android:id="@+id/nav_club7"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 7" />
+            <item
+                android:id="@+id/nav_club8"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 8" />
+            <item
+                android:id="@+id/nav_club9"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 9" />
+            <item
+                android:id="@+id/nav_club10"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 10"/>
+            <item
+                android:id="@+id/nav_club11"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 11"/>
+            <item
+                android:id="@+id/nav_club12"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CLUB 12"/>
+        </menu>
+    </item>
+    <item android:title="COMMON SUBJECTS">
+        <menu>
+            <item
+                android:id="@+id/nav_english"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="ENGLISH" />
+            <item
+                android:id="@+id/nav_physics"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="PHYSICS" />
+            <item
+                android:id="@+id/nav_chemistry"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="CHEMISTRY" />
+            <item
+                android:id="@+id/nav_maths"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="MATHEMATICS" />
+            <item
+                android:id="@+id/nav_computerscience"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="COMPUTER SCIENCE" />
+        </menu>
+    </item>
+    <item android:title="DEPARTMENTS">
+    <menu>
+        <item
+            android:id="@+id/nav_cse"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="CSE" />
+        <item
+            android:id="@+id/nav_ece"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ECE" />
+        <item
+            android:id="@+id/nav_eee"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="EEE" />
+        <item
+            android:id="@+id/nav_mech"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="MECH" />
+        <item
+            android:id="@+id/nav_civil"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="CIVIL" />
+    </menu>
+</item>
+    <item android:title="UNIVERSITY RESULTS">
+        <menu>
+            <item
+                android:id="@+id/nav_universityresults1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LINK 1" />
+            <item
+                android:id="@+id/nav_universityresults2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LINK 2" />
+        </menu>
+    </item>
+    <item android:title="GET MORE AT PSG">
+        <menu>
+            <item
+                android:id="@+id/nav_suggestion_box"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="SUGGESTION BOX" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="FEEDBACK" />
+            <item
+                android:id="@+id/nav_moodle"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="MOODLE" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="WEBSITE" />
+            <item
+                android:id="@+id/nav_academiccalender"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="ACADEMIC CALENDER" />
+            <item
+                android:id="@+id/nav_canteen"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="CANTEEN" />
+        </menu>
+    </item>
+    <item android:title="EXPLORE MORE">
+        <menu>
+            <item
+                android:id="@+id/nav_ini_oru_vidhi_seivom"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="INI ORU VIDHI SEIVOM" />
+            <item
+                android:id="@+id/nav_creative_zone"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="CREATIVE ZONE" />
+        </menu>
+    </item>
+</menu>
+

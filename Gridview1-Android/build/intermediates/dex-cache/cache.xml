@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_e025b331b9e60634e80500952ee200d595d2e616.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_51ab30143fbff50b8779a9626e6d377c1c44e7c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_fdef2bcfa597c03725d19b6ca2c3f02dc286bd86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3a40fe21d0da45edd983633d8ec0e739bf7a38c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_866d7e3f7de8e21d82331c13b353c9d3eb15d7ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_d084e183f1cd14a09df1cdd053b2c946072ab2c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f6d13bd6bc0d860cec47725fad33619e41316fbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_62639a0699c1f370ea6e4d7c7b84768e7fcbffbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3596f005efc7ed82b0d7b64362c9c93d22fa807c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_a38dc876f80c366450a1c00d9aa854b070f8ac2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_5df812a51a31ed365327553ea3be838a0607437e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_92015e01b01c0548f72c1927ba56c7319bc93cb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_82c4755eeac5d2dd3936012f810b22439f2f7635.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_c26f9fcae24d595bd46122ea080f140194470640.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\NIKESHH BASKARAN\AndroidStudioProjects\gridview1\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_c30feeb5a56e74ecc4938a6e5dc993cbc64c5602.jar" />
+    </item>
+
+</items>

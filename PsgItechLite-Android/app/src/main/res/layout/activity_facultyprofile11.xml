@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wallet_holo_blue_light"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layout.otheractivities.facultyprofile11">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse1"
+                    android:id="@+id/imageView1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Dr.T.Hamsapriya"
+                    android:id="@+id/textView82"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Professor and HOD"
+                    android:id="@+id/textView22"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView82"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.E.,Ph.D"
+                    android:id="@+id/textView23"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView22"
+                    android:layout_alignRight="@+id/textView82"
+                    android:layout_alignEnd="@+id/textView82" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 22 years"
+                    android:id="@+id/textView83"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView23"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : hodcse@psgitech.ac.in"
+                    android:id="@+id/textView32"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView83"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Parallel Computing for Engineering Applications"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView32"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/language2_mail1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView22"
+                    android:layout_alignEnd="@+id/textView22" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse2"
+                    android:id="@+id/imageView3"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Dr.A.Muthukumar"
+                    android:id="@+id/textView34"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Associate Professor"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView34"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : Ph.D"
+                    android:id="@+id/textView36"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView35"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 21 years"
+                    android:id="@+id/textView37"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView36"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : amkumar@psgitech.ac.in"
+                    android:id="@+id/textView38"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView37"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Data Mining, Computer Networks,Network Security"
+                    android:id="@+id/textView39"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView38"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/language2_mail2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse3"
+                    android:id="@+id/imageView5"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Ms.K.Lakshmi Kalpana Roy"
+                    android:id="@+id/textView40"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView40"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Sc IT.,SET in Computer Science and Applications"
+                    android:id="@+id/textView42"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView41"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 11 years"
+                    android:id="@+id/textView43"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView42"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : klkr@psgitech.ac.in"
+                    android:id="@+id/textView44"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView43"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Web Technology"
+                    android:id="@+id/textView45"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView44"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/language2_mail3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse4"
+                    android:id="@+id/imageView6"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Ms.V.Vilasini"
+                    android:id="@+id/textView46"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView47"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView46"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.E"
+                    android:id="@+id/textView48"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView47"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 2 years"
+                    android:id="@+id/textView49"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView48"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : vilasini@psgitech.ac.in"
+                    android:id="@+id/textView50"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView49"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Network Security and Web Technology"
+                    android:id="@+id/textView51"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView50"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/language2_mail4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse5"
+                    android:id="@+id/imageView9"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Mr.S.Thivaharan"
+                    android:id="@+id/textView21"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView52"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView21"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Tech"
+                    android:id="@+id/textView53"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView52"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 8 years and 5 months"
+                    android:id="@+id/textView54"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView53"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : thivahar@psgitech.ac.in"
+                    android:id="@+id/textView55"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView54"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Computational Engineering and modelling"
+                    android:id="@+id/textView56"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView55"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/language2_mail5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse6"
+                    android:id="@+id/imageView12"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Ms.M.Sowparnika"
+                    android:id="@+id/textView57"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView12"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView58"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView57"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.E"
+                    android:id="@+id/textView59"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView58"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 1 year"
+                    android:id="@+id/textView60"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView59"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : sowparnika@psgitech.ac.in"
+                    android:id="@+id/textView61"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView60"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Software Engineering and Computer Networks"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView61"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/language2_mail6"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse7"
+                    android:id="@+id/imageView15"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Ms.Viraja Ravi"
+                    android:id="@+id/textView63"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView15"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView63"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Tech"
+                    android:id="@+id/textView65"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView64"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 4 years and 2 months"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView65"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : viraja@psgitech.ac.in"
+                    android:id="@+id/textView67"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView66"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Software Engineering and
+Web Technologies"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView67"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/button16"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse8"
+                    android:id="@+id/imageView18"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Ms.S.Hemkiran"
+                    android:id="@+id/textView70"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView18"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView71"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView70"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.E.,MBA"
+                    android:id="@+id/textView72"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView71"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 4 years and 8 months"
+                    android:id="@+id/textView24"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView72"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : hemkiran@psgitech.ac.in"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="bottom"
+                    android:layout_above="@+id/textView24"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Data Mining, Computer Networking
+                        and Network Security"
+                    android:id="@+id/textView74"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView73"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/button19"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/cse9"
+                    android:id="@+id/imageView4"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Ms.V.Kavitha"
+                    android:id="@+id/textView75"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView76"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView75"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.E"
+                    android:id="@+id/textView77"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView76"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 4 years and 7 months"
+                    android:id="@+id/textView78"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView77"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : kavitha.v@psgitech.ac.in"
+                    android:id="@+id/textView79"
+                    android:layout_gravity="bottom"
+                    android:layout_above="@+id/textView78"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : ----------------------"
+                    android:id="@+id/textView80"
+                    android:layout_gravity="bottom"
+                    android:layout_above="@+id/textView79"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/button21"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

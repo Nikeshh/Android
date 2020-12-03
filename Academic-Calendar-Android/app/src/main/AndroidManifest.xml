@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mehdi.sakout.aboutpage.sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.mikhaellopez.circularfillableloaderssample.loader">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nikeshhbaskaran.academiccalendar.MainActivity" />
+        <activity android:name="mehdi.sakout.aboutpage.January" />
+        <activity android:name="mehdi.sakout.aboutpage.February" />
+        <activity android:name="mehdi.sakout.aboutpage.March" />
+        <activity android:name="mehdi.sakout.aboutpage.April" />
+        <activity android:name="mehdi.sakout.aboutpage.May" />
+        <activity android:name="mehdi.sakout.aboutpage.June" />
+        <activity android:name="mehdi.sakout.aboutpage.July" />
+        <activity android:name="mehdi.sakout.aboutpage.August" />
+        <activity android:name="mehdi.sakout.aboutpage.September" />
+        <activity android:name="mehdi.sakout.aboutpage.October" />
+        <activity android:name="mehdi.sakout.aboutpage.November" />
+        <activity android:name="mehdi.sakout.aboutpage.December" />
+        <activity android:name="com.example.nikeshhbaskaran.academiccalendar.splashscreen" />
+        <activity android:name="com.amqtech.opensource.appintroexample.ui.MainActivity" />
+        <activity android:name="com.amqtech.opensource.appintroexample.ui.mainTabs.intro.CustomBackgroundIntro" />
+        <activity android:name="com.amqtech.opensource.appintroexample.ui.mainTabs.intro.CustomLayoutIntro" />
+        <activity android:name="com.amqtech.opensource.appintroexample.ui.mainTabs.intro.DefaultIntro" />
+        <activity android:name="com.amqtech.opensource.appintroexample.DefaultIntro" />
+        <activity android:name="com.amqtech.opensource.appintroexample.ui.permsTabs.intro.PermissionsIntro1" />
+        <activity android:name="com.amqtech.opensource.appintroexample.ui.permsTabs.intro.PermissionsIntro2" />
+    </application>
+
+</manifest>

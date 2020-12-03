@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#00a1f1"
+        android:text="LEAVE"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textView33" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#00a1f1"
+        android:text="APPLICATION FOR"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="79dp"
+        android:id="@+id/textView69" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#00a1f1"
+        android:text="TAKING LEAVE"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView69"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#00a1f1"
+        android:text="1.Download the"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textView34"
+        android:layout_marginTop="123dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#00a1f1"
+        android:text="LEAVE FORM"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#00a1f1"
+        android:text="2.Click on NEXT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textView36"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/button31"
+        android:onClick="buttonleave"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEAVE FORM"
+        android:id="@+id/button39"
+        android:onClick="buttonleave"
+        android:layout_alignTop="@+id/button31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp" />
+
+</RelativeLayout>

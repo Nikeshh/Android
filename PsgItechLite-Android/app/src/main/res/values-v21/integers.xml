@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer name="toggle_animation_duration">600</integer>
+  <integer name="info_container_initial_alpha">1</integer>
+  <integer name="gallery_grid_span_count">2</integer>
+  <integer name="cdn_asset_size">800</integer>
+  <integer name="gallery_alpha_duration">200</integer>
+  <integer name="gallery_pager_offscreen_limit">2</integer>
+  <integer name="gallery_info_bg_alpha">0xE5</integer>
+  <integer name="toolbar_animation_duration">300</integer>
+  <item name="ASSIGNMENT_TYPE_CREATE" format="integer" type="integer">1</item>
+  <item name="ASSIGNMENT_TYPE_MODIFY" format="integer" type="integer">2</item>
+  <item name="ASSIGNMENT_TYPE_DELETE" format="integer" type="integer">3</item>
+  <item name="COURSE_ADD" format="integer" type="integer">4</item>
+  <item name="COURSE_MODIFY" format="integer" type="integer">5</item>
+  <item name="COURSE_DELETE" format="integer" type="integer">6</item>
+  <item name="GRADE_ADD" format="integer" type="integer">7</item>
+  <item name="GRADE_MODIFY" format="integer" type="integer">8</item>
+  <item name="GRADE_DELETE" format="integer" type="integer">9</item>
+  <item name="SCALE_SETUP" format="integer" type="integer">10</item>
+  <item name="STYLE_PERCENTAGE" format="integer" type="integer">11</item>
+  <item name="STYLE_POINTS" format="integer" type="integer">12</item>
+</resources>

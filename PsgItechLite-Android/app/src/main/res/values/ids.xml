@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menuItemLang" type="id" />
+    <item name="container" type="id" />
+    <item name="message_et" type="id" />
+    <item name="channel_bar" type="id" />
+    <item name="action_search" type="id" />
+    <item name="action_backup" type="id" />
+    <item name="action_restore" type="id" />
+    <item name="action_rate_app" type="id" />
+    <item name="overflow_menu" type="id" />
+    <item name="dlt_course_lbl" type="id" />
+</resources>

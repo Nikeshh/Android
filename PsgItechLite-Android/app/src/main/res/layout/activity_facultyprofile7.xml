@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wallet_holo_blue_light"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layout.otheractivities.facultyprofile7">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/mathematics1"
+                    android:id="@+id/imageView1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Dr.P.R.Kandasamy"
+                    android:id="@+id/textView82"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Professor and HOD"
+                    android:id="@+id/textView22"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView82"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Sc.,M.Phil.,Ph.D"
+                    android:id="@+id/textView23"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView22"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 37 years"
+                    android:id="@+id/textView83"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView23"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : prk@psgitech.ac.in"
+                    android:id="@+id/textView32"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView83"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Applied Mathematics"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView32"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/mathematics_mail1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView22"
+                    android:layout_alignEnd="@+id/textView22" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/mathematics2"
+                    android:id="@+id/imageView3"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Dr.V.Jailaxmi"
+                    android:id="@+id/textView34"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Associate Professor"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView34"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Sc, M.Phil, Ph.D"
+                    android:id="@+id/textView36"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView35"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 21 years"
+                    android:id="@+id/textView37"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView36"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : vjai@psgitech.ac.in"
+                    android:id="@+id/textView38"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView37"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Fluid Dynamics and Queuing Theory"
+                    android:id="@+id/textView39"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView38"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/mathematics_mail2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/mathematics3"
+                    android:id="@+id/imageView5"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Dr.S.Aramuthakannan"
+                    android:id="@+id/textView40"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView40"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : Ph.D"
+                    android:id="@+id/textView42"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView41"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 17 years"
+                    android:id="@+id/textView43"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView42"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : sakannan@psgitech.ac.in"
+                    android:id="@+id/textView44"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView43"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Optimization Techniques"
+                    android:id="@+id/textView45"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView44"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/mathematics_mail3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/mathematics4"
+                    android:id="@+id/imageView6"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Mr.P.Chinnaraj"
+                    android:id="@+id/textView46"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView47"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView46"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Sc.,M.Phil"
+                    android:id="@+id/textView48"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView47"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 11 years"
+                    android:id="@+id/textView49"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView48"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : chinnaraj@psgitech.ac.in"
+                    android:id="@+id/textView50"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView49"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Probability and Queueing Theory"
+                    android:id="@+id/textView51"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView50"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/mathematics_mail4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="315dp"
+                    android:background="@drawable/mathematics5"
+                    android:id="@+id/imageView9"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Name : Dr.V.Chitra"
+                    android:id="@+id/textView21"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/imageView9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Designation : Assistant Professor"
+                    android:id="@+id/textView52"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView21"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Qualification : M.Sc.,Ph.D"
+                    android:id="@+id/textView53"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView52"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Experience : 1 years and 6 months"
+                    android:id="@+id/textView54"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView53"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Email : chitra@psgitech.ac.in"
+                    android:id="@+id/textView55"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView54"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:text="Specialization : Graph Theory - Graph Decompositions and Factorization"
+                    android:id="@+id/textView56"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@+id/textView55"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIL"
+                    android:onClick="buttonClicked"
+                    android:id="@+id/mathematics_mail5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

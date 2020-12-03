@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nikeshhbaskaran.psgitech.FIRSTPAGE">
+    <item
+        android:id="@+id/action_timeline"
+        android:orderInCategory="100"
+        android:title="@string/action_timeline"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_chat"
+        android:orderInCategory="100"
+        android:title="@string/action_chat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_groupmail"
+        android:orderInCategory="100"
+        android:title="@string/action_groupmail"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_photos"
+        android:orderInCategory="100"
+        android:title="@string/action_photos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

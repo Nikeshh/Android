@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HP ADWEB</string>
+
+    <string name="title_activity_splash">splash</string>
+
+    <string name="text1">The Hewlett-Packard Company (commonly referred to as HP) was an American multinational information technology company headquartered in Palo Alto, California. It developed and provided a wide variety of hardware components as well as software and related services to consumers, small- and medium-sized businesses (SMBs) and large enterprises, including customers in the government, health and education sectors.</string>
+    <string name="text2">Hewlett Packward offers the facility of Ad for Sellers And Buyers</string>
+    <string name="text3">Hewlett Packward offers wide range of products</string>
+    <string name="text4">To get more user experience</string>
+    <string name="title_activity_webpage2">webpage2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="username">Username (Max 10 chars)</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="send">Send</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

@@ -1,0 +1,130 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_timeline"
+            android:title="Timeline" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_navigation"
+            android:title="Navigation" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="EDUCATION">
+        <menu>
+            <item
+                android:id="@+id/nav_cgpacalculator"
+                android:title="CGPA CALCULATOR" />
+            <item
+                android:id="@+id/nav_materials"
+                android:title="MATERIALS" />
+            <item
+                android:id="@+id/nav_calculator"
+                android:title="CALCULATOR" />
+            <item
+                android:id="@+id/nav_conversiontable"
+                android:title="CONVERSION TABLE" />
+            <item
+                android:id="@+id/nav_scientificcalculator"
+                android:title="SCIENTIFIC CALCULATOR" />
+        </menu>
+    </item>
+    <item android:title="CLUBS">
+        <menu>
+            <item
+                android:id="@+id/nav_tharangani"
+                android:title="Tharangani" />
+            <item
+                android:id="@+id/nav_ecoclub"
+                android:title="Eco club" />
+            <item
+                android:id="@+id/nav_club3"
+                android:title="Club 3" />
+            <item
+                android:id="@+id/club4"
+                android:title="Club 4" />
+            <item
+                android:id="@+id/nav_club5"
+                android:title="Club 5" />
+            <item
+                android:id="@+id/nav_club6"
+                android:title="Club 6" />
+            <item
+                android:id="@+id/nav_club7"
+                android:title="Club 7" />
+            <item
+                android:id="@+id/nav_club8"
+                android:title="Club 8" />
+            <item
+                android:id="@+id/nav_club9"
+                android:title="Club 9" />
+            <item
+                android:id="@+id/nav_club10"
+                android:title="Club 10"/>
+        </menu>
+    </item>
+    <item android:title="COMMON SUBJECTS">
+        <menu>
+            <item
+                android:id="@+id/nav_english"
+                android:title="ENGLISH" />
+            <item
+                android:id="@+id/nav_language1"
+                android:title="LANGUAGE1" />
+            <item
+                android:id="@+id/nav_language2"
+                android:title="LANGUAGE2" />
+            <item
+                android:id="@+id/nav_physics"
+                android:title="PHYSICS" />
+            <item
+                android:id="@+id/nav_chemistry"
+                android:title="CHEMISTRY" />
+            <item
+                android:id="@+id/nav_maths"
+                android:title="MATHS" />
+            <item
+                android:id="@+id/nav_computerscience"
+                android:title="COMPUTER SCIENCE" />
+        </menu>
+    </item>
+    <item android:title="DEPARTMENTS">
+        <menu>
+            <item
+                android:id="@+id/nav_cse"
+                android:title="CSE" />
+            <item
+                android:id="@+id/nav_ece"
+                android:title="ECE" />
+            <item
+                android:id="@+id/nav_eee"
+                android:title="EEE" />
+            <item
+                android:id="@+id/nav_mech"
+                android:title="MECH" />
+            <item
+                android:id="@+id/nav_civil"
+                android:title="CIVIL" />
+        </menu>
+    </item>
+    <item android:title="STUDENTS CORNER">
+        <menu>
+            <item
+                android:id="@+id/nav_examinationresults"
+                android:title="EXAMINATION RESULTS" />
+            <item
+                android:id="@+id/nav_universityresults"
+                android:title="UNIVERSITY RESULTS" />
+        </menu>
+    </item>
+</menu>
+

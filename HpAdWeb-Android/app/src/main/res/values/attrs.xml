@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedPathView">
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color|reference" />
+        <attr name="fillColor" format="color|reference" />
+        <attr name="phase" format="float" />
+        <attr name="duration" format="integer" />
+        <attr name="fillDuration" format="integer" />
+        <attr name="fillOffset" format="integer" />
+        <attr name="fadeFactor" format="float" />
+        <attr name="svgPath" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SpotlightView">
+        <attr name="target" format="reference" />
+        <attr name="mask" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseAppTheme">
+        <attr name="actionBarIconColor" format="color" />
+    </declare-styleable>
+
+</resources>
